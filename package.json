@@ -1,25 +1,18 @@
 {
-  "name": "trello-power-up-skeleton",
+  "name": "Time Tracker",
   "version": "0.0.1",
-  "description": "A Power-Up skeleton to remix to start building your Power-Up!",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "details": "A Power-Up to track time",
+  "icon": {
+    "url": "https://github.com/Pericuelo/TrelloTimeTracker/blob/master/assets/icon.png"
   },
-  "dependencies": {
-    "express": "^4.15.2",
-    "cors": "^2.8.3"
-  },
-  "engines": {
-    "node": "6.10.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/trello-power-up-skeleton"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "Pere Fonolleda",
+  "capabilities": [
+    "callback",
+    "card-buttons"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./public/index.html"
+    }
+  }
 }
