@@ -3,7 +3,7 @@
 TrelloPowerUp.initialize({
   'card-buttons': function(t, options){
       return [{
-        icon: 'https://raw.github.com/Pericuelo/TrelloTimeTracker/master/assets/icon.png',
+        icon: 'https://raw.githubusercontent.com/Pericuelo/TrelloTimeTracker/master/assets/icon.png',
         text: 'Time Track',
       }];
     },
